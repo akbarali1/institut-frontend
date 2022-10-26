@@ -373,7 +373,7 @@ export default {
         if (result.isConfirmed) {
           this.$auth.logout();
           setTimeout(() => {
-            this.$router.push('/demo')
+            this.$router.push('/auth/login')
             this.reloadPage(100);
           }, 1000);
 

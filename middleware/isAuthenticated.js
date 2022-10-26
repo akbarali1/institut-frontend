@@ -3,6 +3,6 @@ export default function ({store, redirect}) {
   //   window.location.re("https://betta.questa.uz");
   //  } else
   if (!store.state.auth.loggedIn) {
-    return redirect("/demo");
+    return redirect("/auth/login");
   }
 }

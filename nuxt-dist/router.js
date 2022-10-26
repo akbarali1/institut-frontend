@@ -6,7 +6,6 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _029bb339 = () => interopDefault(import('..\\pages\\admin\\index.vue' /* webpackChunkName: "pages/admin/index" */))
 const _15bd2a32 = () => interopDefault(import('..\\pages\\championship\\index.vue' /* webpackChunkName: "pages/championship/index" */))
-const _9b01a32e = () => interopDefault(import('..\\pages\\demo\\index.vue' /* webpackChunkName: "pages/demo/index" */))
 const _96a4f5ae = () => interopDefault(import('..\\pages\\exchange\\index.vue' /* webpackChunkName: "pages/exchange/index" */))
 const _416979ef = () => interopDefault(import('..\\pages\\rating\\index.vue' /* webpackChunkName: "pages/rating/index" */))
 const _4cdf64dd = () => interopDefault(import('..\\pages\\referal\\index.vue' /* webpackChunkName: "pages/referal/index" */))
@@ -50,7 +49,6 @@ const _11d28536 = () => interopDefault(import('..\\pages\\admin\\question\\view\
 const _4e966f8d = () => interopDefault(import('..\\pages\\admin\\surfing\\edit\\_id.vue' /* webpackChunkName: "pages/admin/surfing/edit/_id" */))
 const _488efecd = () => interopDefault(import('..\\pages\\rating\\championship\\view\\_id.vue' /* webpackChunkName: "pages/rating/championship/view/_id" */))
 const _69c9fa3f = () => interopDefault(import('..\\pages\\surfing\\view\\_id.vue' /* webpackChunkName: "pages/surfing/view/_id" */))
-const _9e6ee5be = () => interopDefault(import('..\\pages\\demo\\_slug.vue' /* webpackChunkName: "pages/demo/_slug" */))
 const _49ac8fbd = () => interopDefault(import('..\\pages\\ref_id\\_slug.vue' /* webpackChunkName: "pages/ref_id/_slug" */))
 const _aea6b570 = () => interopDefault(import('..\\pages\\users\\_id.vue' /* webpackChunkName: "pages/users/_id" */))
 const _44be5d2c = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
@@ -74,10 +72,6 @@ export const routerOptions = {
     path: "/championship",
     component: _15bd2a32,
     name: "championship___uz"
-  }, {
-    path: "/demo",
-    component: _9b01a32e,
-    name: "demo___uz"
   }, {
     path: "/exchange",
     component: _96a4f5ae,
@@ -250,10 +244,6 @@ export const routerOptions = {
     path: "/surfing/view/:id?",
     component: _69c9fa3f,
     name: "surfing-view-id___uz"
-  }, {
-    path: "/demo/:slug",
-    component: _9e6ee5be,
-    name: "demo-slug___uz"
   }, {
     path: "/ref_id/:slug?",
     component: _49ac8fbd,

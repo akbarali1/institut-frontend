@@ -200,7 +200,7 @@ export async function setContext (app, context) {
       payload: context.payload,
       error: context.error,
       base: app.router.options.base,
-      env: {"API_URL":"https://backend.questa.uz/api/v1/","DEFAULT_LOCALE":"uz","GOOGLE_ANALYTICS_ID":"G-3Z6HYLHQEH","SUCCESS_SOUND":"https://backend.questa.uz/assets/sounds/ok.mp3","ERROR_SOUND":"https://backend.questa.uz/assets/sounds/err.mp3","SOUND_ICON_TRUE":"<i class=\"bi bi-mic\"></i>","SOUND_ICON_FALSE":"<i class=\"bi bi-mic-mute\"></i>","TEST_ICON_FALSE":"<i class=\"bi bi-grid\"></i>","TEST_ICON_TRUE":"<i class=\"bi bi-hdd-stack\"></i>"}
+      env: {"API_URL":"https://ins.questa.uz/api/v1/","DEFAULT_LOCALE":"uz","GOOGLE_ANALYTICS_ID":"G-3Z6HYLHQEH","SUCCESS_SOUND":"https://backend.questa.uz/assets/sounds/ok.mp3","ERROR_SOUND":"https://backend.questa.uz/assets/sounds/err.mp3","SOUND_ICON_TRUE":"<i class=\"bi bi-mic\"></i>","SOUND_ICON_FALSE":"<i class=\"bi bi-mic-mute\"></i>","TEST_ICON_FALSE":"<i class=\"bi bi-grid\"></i>","TEST_ICON_TRUE":"<i class=\"bi bi-hdd-stack\"></i>"}
     }
     // Only set once
 

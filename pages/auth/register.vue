@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center ">
-    <div class="card animate__animated animate__fadeInDown" style="max-width: 450px;">
+    <div class="card animate__animated animate__fadeInDown" style="min-width: 400px;">
       <div class="card card-body">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item" role="presentation">
@@ -13,11 +13,11 @@
               Ro'yhatdan o'tish
             </button>
           </li>
-          <li class="nav-item" role="presentation">
-            <nuxt-link :to="`/demo`" class="nav-link p-2">
-              Demo test
-            </nuxt-link>
-          </li>
+          <!--          <li class="nav-item" role="presentation">-->
+          <!--            <nuxt-link :to="`/demo`" class="nav-link p-2">-->
+          <!--              Demo test-->
+          <!--            </nuxt-link>-->
+          <!--          </li>-->
         </ul>
         <div class="tab-content" id="myTabContent">
           <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">

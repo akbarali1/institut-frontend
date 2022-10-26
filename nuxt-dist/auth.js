@@ -42,23 +42,23 @@ export default function (ctx, inject) {
   // Register strategies
   // laravelJWT
   $auth.registerStrategy('laravelJWT', new LaravelJWTScheme($auth, {
-  "url": "https://backend.questa.uz/api/v1/",
+  "url": "https://ins.questa.uz/api/v1/",
   "endpoints": {
     "login": {
-      "url": "https://backend.questa.uz/api/v1/auth/login",
+      "url": "https://ins.questa.uz/api/v1/auth/login",
       "method": "post",
       "propertyName": "token"
     },
     "refresh": {
-      "url": "https://backend.questa.uz/api/v1/auth/refresh",
+      "url": "https://ins.questa.uz/api/v1/auth/refresh",
       "method": "post"
     },
     "logout": {
-      "url": "https://backend.questa.uz/api/v1/auth/logout",
+      "url": "https://ins.questa.uz/api/v1/auth/logout",
       "method": "destroy"
     },
     "user": {
-      "url": "https://backend.questa.uz/api/v1/auth/user",
+      "url": "https://ins.questa.uz/api/v1/auth/user",
       "method": "get"
     }
   },
@@ -86,23 +86,23 @@ export default function (ctx, inject) {
 
   // local
   $auth.registerStrategy('local', new LaravelJWTScheme($auth, {
-  "url": "https://backend.questa.uz/api/v1/",
+  "url": "https://ins.questa.uz/api/v1/",
   "endpoints": {
     "login": {
-      "url": "https://backend.questa.uz/api/v1/auth/web3/verify",
+      "url": "https://ins.questa.uz/api/v1/auth/web3/verify",
       "method": "post",
       "propertyName": "token"
     },
     "refresh": {
-      "url": "https://backend.questa.uz/api/v1/auth/refresh",
+      "url": "https://ins.questa.uz/api/v1/auth/refresh",
       "method": "post"
     },
     "logout": {
-      "url": "https://backend.questa.uz/api/v1/auth/logout",
+      "url": "https://ins.questa.uz/api/v1/auth/logout",
       "method": "destroy"
     },
     "user": {
-      "url": "https://backend.questa.uz/api/v1/auth/user",
+      "url": "https://ins.questa.uz/api/v1/auth/user",
       "method": "get",
       "propertyName": false
     }
@@ -131,23 +131,23 @@ export default function (ctx, inject) {
 
   // telegram
   $auth.registerStrategy('telegram', new LaravelJWTScheme($auth, {
-  "url": "https://backend.questa.uz/api/v1/",
+  "url": "https://ins.questa.uz/api/v1/",
   "endpoints": {
     "login": {
-      "url": "https://backend.questa.uz/api/v1/auth/telegram/login",
+      "url": "https://ins.questa.uz/api/v1/auth/telegram/login",
       "method": "post",
       "propertyName": "token"
     },
     "refresh": {
-      "url": "https://backend.questa.uz/api/v1/auth/refresh",
+      "url": "https://ins.questa.uz/api/v1/auth/refresh",
       "method": "post"
     },
     "logout": {
-      "url": "https://backend.questa.uz/api/v1/auth/logout",
+      "url": "https://ins.questa.uz/api/v1/auth/logout",
       "method": "destroy"
     },
     "user": {
-      "url": "https://backend.questa.uz/api/v1/auth/user",
+      "url": "https://ins.questa.uz/api/v1/auth/user",
       "method": "get",
       "propertyName": false
     }
