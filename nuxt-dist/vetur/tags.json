@@ -1,0 +1,41 @@
+{
+  "AdminDemoQuestionTable": {
+    "description": "Auto imported from components/AdminDemoQuestionTable.vue"
+  },
+  "AdminQuestionTable": {
+    "description": "Auto imported from components/AdminQuestionTable.vue"
+  },
+  "AdminTableHeader": {
+    "description": "Auto imported from components/AdminTableHeader.vue"
+  },
+  "ChampionshipTable": {
+    "description": "Auto imported from components/ChampionshipTable.vue"
+  },
+  "CkeditorNuxt": {
+    "description": "Auto imported from components/ckeditorNuxt.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "News": {
+    "description": "Auto imported from components/News.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "TelegramLogin": {
+    "description": "Auto imported from components/telegram-login.vue"
+  },
+  "TestViewTable": {
+    "description": "Auto imported from components/TestViewTable.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  },
+  "UserStatus": {
+    "description": "Auto imported from components/user-status.vue"
+  }
+}

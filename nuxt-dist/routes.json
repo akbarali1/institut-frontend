@@ -1,0 +1,302 @@
+[
+  {
+    "name": "admin___uz",
+    "path": "/admin",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\index.vue",
+    "chunkName": "pages/admin/index"
+  },
+  {
+    "name": "championship___uz",
+    "path": "/championship",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\championship\\\\index.vue",
+    "chunkName": "pages/championship/index"
+  },
+  {
+    "name": "demo___uz",
+    "path": "/demo",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\demo\\\\index.vue",
+    "chunkName": "pages/demo/index"
+  },
+  {
+    "name": "exchange___uz",
+    "path": "/exchange",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\exchange\\\\index.vue",
+    "chunkName": "pages/exchange/index"
+  },
+  {
+    "name": "rating___uz",
+    "path": "/rating",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\rating\\\\index.vue",
+    "chunkName": "pages/rating/index"
+  },
+  {
+    "name": "referal___uz",
+    "path": "/referal",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\referal\\\\index.vue",
+    "chunkName": "pages/referal/index"
+  },
+  {
+    "name": "settings___uz",
+    "path": "/settings",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\settings\\\\index.vue",
+    "chunkName": "pages/settings/index"
+  },
+  {
+    "name": "surfing___uz",
+    "path": "/surfing",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\surfing\\\\index.vue",
+    "chunkName": "pages/surfing/index"
+  },
+  {
+    "name": "test___uz",
+    "path": "/test",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\test\\\\index.vue",
+    "chunkName": "pages/test/index"
+  },
+  {
+    "name": "admin-championship___uz",
+    "path": "/admin/championship",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\championship\\\\index.vue",
+    "chunkName": "pages/admin/championship/index"
+  },
+  {
+    "name": "admin-demotest___uz",
+    "path": "/admin/demotest",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\demotest\\\\index.vue",
+    "chunkName": "pages/admin/demotest/index"
+  },
+  {
+    "name": "admin-news___uz",
+    "path": "/admin/news",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\news\\\\index.vue",
+    "chunkName": "pages/admin/news/index"
+  },
+  {
+    "name": "admin-question___uz",
+    "path": "/admin/question",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\question\\\\index.vue",
+    "chunkName": "pages/admin/question/index"
+  },
+  {
+    "name": "admin-surfing___uz",
+    "path": "/admin/surfing",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\surfing\\\\index.vue",
+    "chunkName": "pages/admin/surfing/index"
+  },
+  {
+    "name": "auth-login___uz",
+    "path": "/auth/login",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\auth\\\\login.vue",
+    "chunkName": "pages/auth/login"
+  },
+  {
+    "name": "auth-register___uz",
+    "path": "/auth/register",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\auth\\\\register.vue",
+    "chunkName": "pages/auth/register"
+  },
+  {
+    "name": "rating-championship___uz",
+    "path": "/rating/championship",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\rating\\\\championship\\\\index.vue",
+    "chunkName": "pages/rating/championship/index"
+  },
+  {
+    "name": "rating-o___uz",
+    "path": "/rating/o",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\rating\\\\o\\\\index.vue",
+    "chunkName": "pages/rating/o/index"
+  },
+  {
+    "name": "rating-referal___uz",
+    "path": "/rating/referal",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\rating\\\\referal\\\\index.vue",
+    "chunkName": "pages/rating/referal/index"
+  },
+  {
+    "name": "admin-championship-create___uz",
+    "path": "/admin/championship/create",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\championship\\\\create\\\\index.vue",
+    "chunkName": "pages/admin/championship/create/index"
+  },
+  {
+    "name": "admin-demotest-create___uz",
+    "path": "/admin/demotest/create",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\demotest\\\\create\\\\index.vue",
+    "chunkName": "pages/admin/demotest/create/index"
+  },
+  {
+    "name": "admin-news-create___uz",
+    "path": "/admin/news/create",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\news\\\\create\\\\index.vue",
+    "chunkName": "pages/admin/news/create/index"
+  },
+  {
+    "name": "admin-news-notification___uz",
+    "path": "/admin/news/notification",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\news\\\\notification\\\\index.vue",
+    "chunkName": "pages/admin/news/notification/index"
+  },
+  {
+    "name": "admin-question-audio___uz",
+    "path": "/admin/question/audio",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\question\\\\audio\\\\index.vue",
+    "chunkName": "pages/admin/question/audio/index"
+  },
+  {
+    "name": "admin-question-create___uz",
+    "path": "/admin/question/create",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\question\\\\create\\\\index.vue",
+    "chunkName": "pages/admin/question/create/index"
+  },
+  {
+    "name": "admin-question-excel___uz",
+    "path": "/admin/question/excel",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\question\\\\excel\\\\index.vue",
+    "chunkName": "pages/admin/question/excel/index"
+  },
+  {
+    "name": "admin-question-images___uz",
+    "path": "/admin/question/images",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\question\\\\images\\\\index.vue",
+    "chunkName": "pages/admin/question/images/index"
+  },
+  {
+    "name": "admin-surfing-create___uz",
+    "path": "/admin/surfing/create",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\surfing\\\\create\\\\index.vue",
+    "chunkName": "pages/admin/surfing/create/index"
+  },
+  {
+    "name": "admin-surfing-stat___uz",
+    "path": "/admin/surfing/stat",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\surfing\\\\stat\\\\index.vue",
+    "chunkName": "pages/admin/surfing/stat/index"
+  },
+  {
+    "name": "rating-championship-all___uz",
+    "path": "/rating/championship/all",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\rating\\\\championship\\\\all\\\\index.vue",
+    "chunkName": "pages/rating/championship/all/index"
+  },
+  {
+    "name": "admin-news-notification-create___uz",
+    "path": "/admin/news/notification/create",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\news\\\\notification\\\\create\\\\index.vue",
+    "chunkName": "pages/admin/news/notification/create/index"
+  },
+  {
+    "name": "admin-question-audio-create___uz",
+    "path": "/admin/question/audio/create",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\question\\\\audio\\\\create\\\\index.vue",
+    "chunkName": "pages/admin/question/audio/create/index"
+  },
+  {
+    "name": "admin-question-excel-create___uz",
+    "path": "/admin/question/excel/create",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\question\\\\excel\\\\create\\\\index.vue",
+    "chunkName": "pages/admin/question/excel/create/index"
+  },
+  {
+    "name": "admin-question-images-create___uz",
+    "path": "/admin/question/images/create",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\question\\\\images\\\\create\\\\index.vue",
+    "chunkName": "pages/admin/question/images/create/index"
+  },
+  {
+    "name": "admin-news-notification-edit-id___uz",
+    "path": "/admin/news/notification/edit/:id?",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\news\\\\notification\\\\edit\\\\_id.vue",
+    "chunkName": "pages/admin/news/notification/edit/_id"
+  },
+  {
+    "name": "admin-question-audio-edit-id___uz",
+    "path": "/admin/question/audio/edit/:id?",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\question\\\\audio\\\\edit\\\\_id.vue",
+    "chunkName": "pages/admin/question/audio/edit/_id"
+  },
+  {
+    "name": "admin-championship-edit-id___uz",
+    "path": "/admin/championship/edit/:id?",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\championship\\\\edit\\\\_id.vue",
+    "chunkName": "pages/admin/championship/edit/_id"
+  },
+  {
+    "name": "admin-demotest-category-create-id___uz",
+    "path": "/admin/demotest/category-create/:id?",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\demotest\\\\category-create\\\\_id.vue",
+    "chunkName": "pages/admin/demotest/category-create/_id"
+  },
+  {
+    "name": "admin-demotest-edit-id___uz",
+    "path": "/admin/demotest/edit/:id?",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\demotest\\\\edit\\\\_id.vue",
+    "chunkName": "pages/admin/demotest/edit/_id"
+  },
+  {
+    "name": "admin-demotest-view-id___uz",
+    "path": "/admin/demotest/view/:id?",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\demotest\\\\view\\\\_id.vue",
+    "chunkName": "pages/admin/demotest/view/_id"
+  },
+  {
+    "name": "admin-news-edit-id___uz",
+    "path": "/admin/news/edit/:id?",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\news\\\\edit\\\\_id.vue",
+    "chunkName": "pages/admin/news/edit/_id"
+  },
+  {
+    "name": "admin-question-edit-id___uz",
+    "path": "/admin/question/edit/:id?",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\question\\\\edit\\\\_id.vue",
+    "chunkName": "pages/admin/question/edit/_id"
+  },
+  {
+    "name": "admin-question-view-id___uz",
+    "path": "/admin/question/view/:id?",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\question\\\\view\\\\_id.vue",
+    "chunkName": "pages/admin/question/view/_id"
+  },
+  {
+    "name": "admin-surfing-edit-id___uz",
+    "path": "/admin/surfing/edit/:id?",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\admin\\\\surfing\\\\edit\\\\_id.vue",
+    "chunkName": "pages/admin/surfing/edit/_id"
+  },
+  {
+    "name": "rating-championship-view-id___uz",
+    "path": "/rating/championship/view/:id?",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\rating\\\\championship\\\\view\\\\_id.vue",
+    "chunkName": "pages/rating/championship/view/_id"
+  },
+  {
+    "name": "surfing-view-id___uz",
+    "path": "/surfing/view/:id?",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\surfing\\\\view\\\\_id.vue",
+    "chunkName": "pages/surfing/view/_id"
+  },
+  {
+    "name": "demo-slug___uz",
+    "path": "/demo/:slug",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\demo\\\\_slug.vue",
+    "chunkName": "pages/demo/_slug"
+  },
+  {
+    "name": "ref_id-slug___uz",
+    "path": "/ref_id/:slug?",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\ref_id\\\\_slug.vue",
+    "chunkName": "pages/ref_id/_slug"
+  },
+  {
+    "name": "users-id___uz",
+    "path": "/users/:id?",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\users\\\\_id.vue",
+    "chunkName": "pages/users/_id"
+  },
+  {
+    "name": "index___uz",
+    "path": "/",
+    "component": "C:\\\\OpenServer\\\\domains\\\\instutut-frontend\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
