@@ -36,6 +36,15 @@
             </div>
           </div>
           <form autocomplete="off" @submit.prevent="register" v-if="!success" method="post">
+
+            <div class="form-floating mb-2">
+              <div class="btn-group">
+                <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" required value="student" v-model="type"/>
+                <label class="btn btn-outline-primary" for="option1">Talaba</label>
+                <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off" required value="teacher" v-model="type"/>
+                <label class="btn btn-outline-primary" for="option2">O'qituvchi</label>
+              </div>
+            </div>
             <div class="form-floating mb-2">
               <input type="text" class="form-control" maxlength="20" minlength="2" name="name"
                      id="name" v-model="name" ref="name"
@@ -44,13 +53,13 @@
               <label for="name">Ismingiz</label>
             </div>
 
-            <div class="form-floating mb-2">
-              <input type="number" placeholder="Tug'ulgan yilingiz" min="1960" max="2015" id="year" v-model="year" ref="name"
-                     v-bind:class="{ 'is-invalid': has_error && errors.year }"
-                     oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-                     maxlength="4" required class="form-control">
-              <label for="year">Tug'ilgan yilingiz</label>
-            </div>
+            <!--            <div class="form-floating mb-2">-->
+            <!--              <input type="number" placeholder="Tug'ulgan yilingiz" min="1960" max="2015" id="year" v-model="year" ref="name"-->
+            <!--                     v-bind:class="{ 'is-invalid': has_error && errors.year }"-->
+            <!--                     oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"-->
+            <!--                     maxlength="4" required class="form-control">-->
+            <!--              <label for="year">Tug'ilgan yilingiz</label>-->
+            <!--            </div>-->
 
             <div class="form-floating mb-2">
               <input type="email" class="form-control" name="email" id="email" v-model="email"
@@ -100,6 +109,7 @@ export default {
       ref_id               : null,
       ref_name             : false,
       year                 : '',
+      type                 : '',
       email                : '',
       password             : '',
       password_confirmation: '',
@@ -121,10 +131,11 @@ export default {
       e.preventDefault();
       let app = this;
       this.$axios.post('auth/register', {
-        name                 : app.name,
-        year                 : app.year,
+        name: app.name,
+        //year                 : app.year,
         email                : app.email,
         password             : app.password,
+        type                 : app.type,
         password_confirmation: app.password_confirmation,
         ref_id               : app.ref_id,
       }).then((response) => {

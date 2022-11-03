@@ -94,51 +94,6 @@
     </div>
     <div v-else class="mb-4">
       <div class="row d-flex justify-content-center">
-        <div class="col-2">
-          <div id="championship_rating" class="carousel slide" data-bs-ride="carousel">
-            <div class="card bg-light bg-gradient">
-              <div class="card-header text-center padingkichkina" style="font-size: 14px">
-                Chempionat natijalari <br>
-                Top 10
-              </div>
-              <div class="card-body p-1">
-                <div class="carousel-inner" style="max-height: 200px;">
-                  <div class="carousel-item" v-for="(item) in top_user.championship" :class="[
-                    {'active': item.number === 1}]" data-bs-interval="3000">
-                    <img :src="item.photo" :alt="item.name" class="d-block w-100" v-if="item.photo !== null">
-                    <img src="~/assets/svg/king.svg" alt="Admin" class="d-block w-100" v-else>
-                    <div class="carousel-caption d-block bottom-0">
-                      <div class="position-relative">
-                        <div class="position-absolute w-100 top-100 start-50 translate-middle">
-                          <div class="text-center">
-                            <span class="badge rounded-pill bg-primary d-block"> {{ $t('rating_number', {number: item.number}) }}</span>
-                            <span class="badge rounded-pill bg-light d-block text-dark">{{ item.name }}</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#championship_rating" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Oldingi</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#championship_rating" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Keyngi</span>
-                </button>
-                <div class="carousel-indicators bg-secondary" style=" position: inherit; padding: 0; margin: 0; ">
-                  <button v-for="item in top_user.championship" type="button"
-                          data-bs-target="#championship_rating" :data-bs-slide-to="item.number-1"
-                          :aria-label="'Slide '+item.number"
-                          :class="[{'active': item.id === 1}]"
-                          :aria-current="item.id === 1 ? 'true' : ''">
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="col col-lg-2 align-self-end  border bg-light m-4 rounded-3" id="step2">
           <div class="text-center p-1 fs-5">{{ $t('user_rating', {rating: userData.rating}) }}</div>
         </div>
@@ -148,49 +103,6 @@
         </div>
         <div class="col col-lg-2 align-self-end border bg-light m-4 rounded-3" id="step5">
           <div class="text-center p-1 fs-5">{{ $t('user_crypto', {crypto: userData.money}) }}</div>
-        </div>
-        <div class="col-2">
-          <div id="user_rating" class="carousel slide" data-bs-ride="carousel">
-            <div class="card bg-light bg-gradient">
-              <div class="card-header text-center padingkichkina" style="font-size: 14px">
-                Umumiy reytinglar <br>
-                Top 10
-              </div>
-              <div class="card-body p-1">
-                <div class="carousel-inner" style="max-height: 190px;">
-                  <div class="carousel-item" v-for="item in top_user.rating"
-                       :class="[{'active': item.number === 1}]" data-bs-interval="3000">
-                    <img :src="item.photo" :alt="item.name" class="d-block w-100" v-if="item.photo">
-                    <img src="~/assets/svg/avatar.svg" alt="Admin" class="d-block w-100" v-else>
-                    <div class="carousel-caption d-block bottom-0">
-                      <div class="position-relative">
-                        <div class="position-absolute w-100 top-100 start-50 translate-middle">
-                          <div class="text-center">
-                            <span class="badge rounded-pill bg-primary d-block">{{ $t('rating_number', {number: item.number}) }}</span>
-                            <span class="badge rounded-pill bg-light d-block text-dark">{{ item.name }}</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#user_rating" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Oldingi</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#user_rating" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Keyngi</span>
-                </button>
-                <div class="carousel-indicators bg-secondary" style=" position: inherit; padding: 0; margin: 0; ">
-                  <button v-for="item in top_user.championship" type="button"
-                          data-bs-target="#user_rating" :data-bs-slide-to="item.number-1"
-                          aria-current="true" :aria-label="item.number-1"
-                          :class="[{'active': item.id === 1}]"></button>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <div class="d-flex justify-content-center">
@@ -316,9 +228,6 @@ export default {
     }
     this.$loading.hide();
     this.$loading.show()
-    if (!this.windowWidth) {
-      await this.topNine()
-    }
     await this.HomePage()
     this.intro_home = localStorage.getItem('intro_' + this.page_name)
     if (this.intro_home === null) {
@@ -349,15 +258,6 @@ export default {
       }).finally(() => {
         this.$loading.hide();
       })
-    },
-    async topNine() {
-      this.$axios.get('top/nine').then((req) => {
-        const data                 = req.data;
-        this.top_user.championship = data.championship;
-        this.top_user.rating       = data.user;
-      }).catch((error) => {
-        window.location.reload()
-      });
     },
     exitSite() {
       Swal.fire({
