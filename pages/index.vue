@@ -1,17 +1,5 @@
 <template>
   <div class="container card mt-4 mb-4" v-if="success === true">
-    <div class="row  mt-2" id="step1">
-      <div class="col fs-3 text-center" data-bs-toggle="tooltip">
-        <span id="starpro">
-         <img src="~/assets/svg/star-pro.svg" :alt="index+1 +' yulduz'" class="img-fluid p-1" v-for="(value, index) in userData.stars_pro"
-              :title="index+1 +' pro yulduz'">
-        </span>
-        <span id="star">
-          <img src="~/assets/svg/star.svg" :alt="index+1 +' yulduz'" class="img-fluid p-1 "
-               v-for="(value, index) in  userData.stars" :title="index+1 +' yulduz'">
-        </span>
-      </div>
-    </div>
     <div v-if="this.windowWidth">
       <div class="row">
         <div class="col-12 text-center">
