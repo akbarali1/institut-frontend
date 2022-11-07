@@ -193,11 +193,6 @@ export default {
       ref_link          : 'https://questa.uz/ref_id/',
       familiya          : null,
       xabarmatni        : null,
-      date_of_birth     : {
-        "oy"  : "",
-        "yil" : "",
-        "sana": ""
-      },
       ism               : null,
       ota               : null,
       email             : null,
@@ -252,9 +247,6 @@ export default {
         this.phone              = response.userData.phone
         this.webmoney           = response.userData.webmoney
         this.qiwi               = response.userData.qiwi
-        this.oy                 = response.userData.date_of_birth.oy
-        this.yil                = response.userData.date_of_birth.yil
-        this.sana               = response.userData.date_of_birth.sana
         this.eth_address_status = response.userData.eth_address
         this.telegram_status    = response.userData.telegram
         this.user_id            = response.userData.id
